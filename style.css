@@ -1,0 +1,89 @@
+
+
+      @font-face{
+  font-family: 'scientifica';
+  src: url('fonts/scientifica.otf');
+}
+
+    body{
+			   font-size: 13px;
+			   font-weight: lighter;
+			   font-family: "scientifica";
+			   text-transform: lowercase;
+			   text-align:center;
+          padding:0;
+          margin-left: 48.6%;
+			   -webkit-font-smoothing: antialiased;
+    		 -moz-osx-font-smoothing: grayscale;
+    		 text-rendering: optimizeLegibility;
+         background-color: black;
+        width:120px;height:150px;border:1px solid #FFF;
+		}
+   
+.blinking {
+    color: white;
+    animation: opacity 3s linear infinite;
+    opacity: 1;
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.7
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.info{
+
+  color:white;
+  padding:0;
+  margin:0;
+
+}
+
+a:visited{
+
+  color:white;
+}
+a:hover{
+  color:red;
+}
+
+  .html-marquee {
+      font-size: 12px;
+      height:200px;
+      width:50px;
+      padding:0;
+      margin:0;
+      text-decoration:none;
+      text-shadow: rgba(0,0,0,.01) 0 0 1px;
+      color: white
+
+  }
+
+  #block_container
+{
+    text-align:center;
+       padding:0;
+      margin:0;   
+}
+#bloc1, #bloc2
+{
+      padding:0;
+      margin:0;
+      display:inline;
+}
+
+#bloc2 .aftr
+{
+      margin-top: -170px; /* as an example */
+      padding: 0px;
+      color: white;
+}

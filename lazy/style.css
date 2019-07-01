@@ -1,0 +1,60 @@
+		  @font-face{
+  font-family: 'scientifica';
+  src: url('fonts/scientifica.otf');
+}
+
+    body{
+			color:white;
+			font-size: 13px;
+			margin:0;
+			padding:0;
+			font-weight: lighter;
+			font-family: "scientifica";
+			text-transform: lowercase;
+			text-align:center;
+			-webkit-font-smoothing: antialiased;
+    		-moz-osx-font-smoothing: grayscale;
+    		text-rendering: optimizeLegibility;
+
+		}
+		.clrs {
+  margin: auto;
+  width: 600px;
+  height: 360px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.clrs header {
+  background: #E0E8F0;
+  height: 30px;
+  border-radius: 8px 8px 0 0;
+  padding-left: 10px;
+}		
+	.html-marquee {
+	font-size: 12px;
+  	height:200px;
+  	width:50px;
+  	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
