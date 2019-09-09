@@ -15,7 +15,6 @@
     		 -moz-osx-font-smoothing: grayscale;
     		 text-rendering: optimizeLegibility;
          background-color: black;
-         width:120px;height:150px;border:1px solid #FFF;
          padding: 25px;
          margin: 25px;
          align-content:center;
@@ -46,50 +45,9 @@
   }
 }
 
-.info{
 
-  color:white;
-  padding:0;
-  margin:0;
 
-}
 
-a:visited{
 
-  color:white;
-}
-a:hover{
-  color:red;
-}
 
-  .html-marquee {
-      font-size: 12px;
-      height:200px;
-      width:50px;
-      padding:0;
-      margin:0;
-      text-decoration:none;
-      text-shadow: rgba(0,0,0,.01) 0 0 1px;
-      color: white
 
-  }
-
-  #block_container
-{
-    text-align:center;
-       padding:0;
-      margin:0;   
-}
-#bloc1, #bloc2
-{
-      padding:0;
-      margin:0;
-      display:inline;
-}
-
-#bloc2 .aftr
-{
-      margin-top: -170px; /* as an example */
-      padding: 0px;
-      color: white;
-}
