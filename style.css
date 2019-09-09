@@ -14,8 +14,6 @@
     		 -moz-osx-font-smoothing: grayscale;
     		 text-rendering: optimizeLegibility;
          background-color: black;
-         padding: 25px;
-         margin: 25px;
   height: 100%;
   width: 100%;
   display: flex;
